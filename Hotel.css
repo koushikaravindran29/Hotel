@@ -1,0 +1,220 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: bisque;
+            height: 830px;
+            padding: 10px;
+
+        }
+
+        section {
+
+            background-color: gray;
+            height: 600px;
+            padding: 10px;
+        }
+
+        footer {
+            color: white;
+            background-color: #333;
+            height: 250px;
+            padding: 10px;
+        }
+
+        .f1 {
+            float: left;
+            width: 25%;
+        }
+
+        .f2 {
+            float: left;
+            width: 25%;
+        }
+
+        .f3 {
+            float: left;
+            width: 25%;
+
+        }
+
+        .f4 {
+            float: right;
+            width: 25%;
+            word-spacing: 50px;
+
+        }
+
+        .v1 {
+            float: right;
+        }
+
+
+
+
+        .a {
+            background-image: url('./images/image.png');
+            background-size: cover;
+            background-position: center;
+            height: 65vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+            opacity: 2;
+        }
+
+        .a-text {
+            background-color: rgba(0,
+                    0, 0, 0.6);
+            padding: 1.5rem;
+            border-radius: 10px;
+        }
+
+        .a-text h2 {
+            font-size: 3rem;
+        }
+
+        .a-text h3 {
+            font-size: 2rem;
+            color: antiquewhite;
+            font-family: cursive;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 10px;
+            text-align: right;
+            margin-right: 20px;
+            word-spacing: 50px;
+            z-index: 1000;
+            /* position: fixed; */
+        }
+
+        a {
+
+            border: 1px solid white;
+
+            padding: 20px;
+            width: 100px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            background-color: #806d21;
+        }
+
+        .para {
+            float: left;
+            color: bisque;
+            word-spacing: 5px;
+            margin-top: 2px;
+            font-family: cursive;
+            font-size: 30px;
+        }
+
+        .image-gallery {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .image-gallery img {
+            width: 80%;
+            height: 80%;
+            border-radius: 50px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            object-fit: cover;
+            /* opacity: 0.5; */
+            transition: opacity 0.3s ease;
+            /* Smooth transition */
+        }
+
+        .image-gallery img:hover {
+            opacity: 0.3;
+        }
+
+        .border {
+            background-color: #333;
+            padding: 30px;
+            height: 450px;
+            width: 900px;
+            float: left;
+
+            margin-left: 100px;
+            text-align: center;
+            word-spacing: 50px;
+        }
+
+        .input-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 50px;
+            width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        select[type="text"] {
+            padding: 10px;
+            font-size: 20px;
+            height: 50px;
+
+        }
+
+        input[type="date"] {
+            padding: 10px;
+            font-size: 20px;
+            height: 50px;
+
+        }
+
+        .submit-btn {
+            grid-column: span 2;
+            padding: 10px;
+            font-size: 16px;
+            background-color: #806d21;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        .submit-btn:hover {
+            background-color: #a0c20d;
+        }
+
+        .a156 {
+            float: left;
+            margin: 20px;
+            color:black;
+            text-align: center;
+            font: 1em sans-serif;
+        }
+
+        /* .a img {
+  opacity: 0.5;
+}
+
+.a img:hover {
+  opacity: 1.0;
+} */
+ 

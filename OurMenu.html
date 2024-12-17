@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background-color: #333;
+            padding: 10px;
+            text-align: right;
+            margin-right: 20px;
+            word-spacing: 50px;
+            z-index: 1000;
+        }
+
+        a {
+
+            border: 1px solid #806d21;
+
+            padding: 20px;
+            width: 100px;
+            color: white;
+            text-decoration: none;
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+
+        a:hover {
+            background-color: #806d21;
+        }
+
+        .para {
+            float: left;
+            color: bisque;
+            word-spacing: 5px;
+            margin-top: 2px;
+            font-family: cursive;
+            font-size: 30px;
+        }
+
+        header {
+            background-image: url('./images/ourmenu.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            display: flex;
+            height: 500px;
+            padding: 10px;
+        }
+
+        section {
+            background-color: rgb(100, 85, 60);
+            height: 900px;
+            padding: 10px;
+        }
+
+        h1 {
+
+            color: #f4f4f4;
+            float: center;
+            margin-left: 400px;
+            margin-top: 150px;
+            font-family: 'Cursive', sans-serif;
+            font-size: 70px;
+            background: linear-gradient(45deg, rgb(145, 150, 55), #b8a90b);
+            /* Gradient background */
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 2px;
+            padding: 15px;
+
+        }
+
+        /* 
+.border {
+    display: flex;
+    gap: 20px; 
+border:4px solid  #806d21;
+    padding: 50px;
+    height:200px;
+    width:600px;
+    
+ 
+  
+}
+.border1 {
+   
+    justify-content: center; 
+    gap: 20px;  
+    padding: 20px;
+}
+.f1{
+    float: right;
+    margin-right: 100px;
+    margin-top: 1px;
+}
+.f2{
+    float: left;
+    margin-left: 10px;
+    margin-top: 1px;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+
+p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.price {
+    font-size: 1.2em;
+    color: #ff6347;
+} */
+        img {
+            height: 350px;
+            width: 320px;
+        }
+
+        .a156 {
+            float: left;
+            margin: 20px;
+            border: 1px solid silver;
+            text-align: center;
+            color:white
+        }
+
+        .a156:hover {
+            background-color: #806d21;
+            border: 3px solid white;
+        }
+
+        .row1 {
+            height: 480px;
+        }
+
+        .row2 {
+            height: 480px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <p class="para">Royal Serene👑</p>
+        <a href="Hotel.html">Home</a>
+        <a href="OurMenu.html">OurMenu</a>
+        <a href="HotelDeliver.html">HomeDelivery</a>
+        <a href="HotelAboutUs.html">AboutUs</a>
+        <a href="HotelContactus.html">ContactUs</a>
+    </nav>
+
+    <header>
+        <center>
+            <h1>OUR MENU</h1>
+
+        </center>
+    </header>
+    <section>
+        <!-- <div class="f2">
+        <div  class="border1">
+        <div class="border">
+        <h2>Burger</h2>
+            <p>Juicy grilled burger with lettuce, tomato, and cheese.</p>
+            <span class="price">$8.99</span>
+        </div>
+    </div>
+</div>
+<div class="f1">
+        <div  class="border1">
+        <div class="border">
+            <h2>Pasta </h2>
+                <p>  Classic Italian pasta with a rich tomato sauce.</p>
+                <span class="price"> $10.99</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="f2">
+        <div  class="border1">
+            <div class="border">
+                <h2>Pizza</h2>
+                    <p> Margherita pizza with fresh mozzarella and basil.</p>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+        </div>
+
+            <div class="f1">
+                <div  class="border1">
+                <div class="border">
+                    <h2>Salad </h2><br>
+                        <p>Mixed greens with fresh veggies and vinaigrette dressing.</p><br>
+                        <span class="price"> $6.99</span>
+                    </div>  
+                </div>
+            </div> -->
+        <div class="row1">
+            <div class="a156">
+                <img src="./images/burger-king.jpg">
+                <p>Burger</p>
+            </div>
+
+            <div class="a156">
+                <img src="./images/pizza.jpg">
+                <p>Pizza</p>
+            </div>
+
+            <div class="a156">
+                <img src="./images/air-fryer-french-fries-horizontal-hero-web-ready-1.jpg">
+                <p>French Fries</p>
+            </div>
+
+            <div class="a156">
+                <img src="./images/Club-sandwich.jpg">
+                <p>Sandwhich</p>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="a156">
+                <img src="./images/fqpicf98_momos_625x300_15_March_23.webp">
+                <p>Momos</p>
+            </div>
+
+            <div class="a156">
+                <img src="./images/istockphoto-619637254-612x612.jpg">
+                <p>Sandwhich</p>
+            </div>
+
+            <div class="a156">
+                <img src="./images/Steak-Sandwich-SQ-2.jpg">
+                <p>Steak Sandwich</p>
+            </div>
+
+            <div class="a156">
+                <img src="./images/coca-cola-ai-campaign.webp">
+                <p>Cocacola</p>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
